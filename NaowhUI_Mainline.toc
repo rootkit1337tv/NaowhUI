@@ -3,6 +3,7 @@
 ## Author: rootkit1337
 ## Version: 20241223.01
 ## SavedVariables: NaowhDB
+## OptionalDeps: BigWigs, Details, ElvUI, HidingBar, MRT, NameplateAuras, OmniCD, Plater, WarpDeplete, WeakAuras
 ## Interface: 110007
 ## AddonCompartmentFunc: NaowhUI_AddonCompartmentFunc
 ## IconTexture: Interface\AddOns\NaowhUI\Core\Media\Textures\LogoAddon
