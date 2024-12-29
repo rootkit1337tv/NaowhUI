@@ -41,7 +41,7 @@ NUI.Options = {
 			name = "AddOn Profiles",
 			order = 1,
 			hidden = function()
-				if IsMacClient() or NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() then
+				if NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() then
 					return true
 				end
 			end,
@@ -415,7 +415,7 @@ NUI.Options = {
 					name = "Load Profiles",
 					desc = "Load your selected NaowhUI profiles onto this character",
 					hidden = function()
-						if IsMacClient() or NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() or not NUI.db.global.profiles then
+						if NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() or not NUI.db.global.profiles then
 							return true
 						end
 					end,

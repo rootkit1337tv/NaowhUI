@@ -25,12 +25,6 @@ function NUI:OpenToCategory()
 end
 
 function NUI:RunInstaller()
-	if IsMacClient() then
-		self:Print("macOS is currently not supported by the installation process.")
-
-		return
-	end
-
 	if self:IsAddOnEnabled("ElvUI") then
 		local E = unpack(ElvUI)
 		local I = self:GetModule("Installer")
