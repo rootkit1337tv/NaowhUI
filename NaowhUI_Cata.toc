@@ -3,7 +3,7 @@
 ## Author: rootkit1337
 ## Version: 20250103.01
 ## SavedVariables: NaowhDB
-## OptionalDeps: BigWigs, Details, ElvUI, HidingBar, MRT, NameplateAuras, Plater, WeakAuras
+## OptionalDeps: BigWigs, Details, ElvUI, HidingBar, MRT, NameplateAuras, WeakAuras
 ## Interface: 40401
 
 embeds.xml
