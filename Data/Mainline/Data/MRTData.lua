@@ -1,11 +1,43 @@
 local NUI = unpack(NaowhUI)
 
 NUI.MRTData = {
-	["BattleRes"] = {
-	["Top"] = 93.792671203613,
+	["Note"] = {
+	["BlackNames"] = {
+	},
+	["FontSize"] = 12,
+	["AutoLoad"] = {
+	},
+	["CustomRoster"] = {
+	},
+	["ShowOnlyInRaid"] = true,
+	["PersonalWidth"] = 300.0001220703125,
+	["Fix"] = true,
+	["ScaleBack"] = 0,
+	["OptionsFormatting"] = true,
+	["enabled"] = true,
+	["TimerOnlyMy"] = true,
+	["Top"] = 1038.693359375,
+	["Outline"] = true,
+	["FontName"] = "Interface\\Addons\\NaowhUI\\Core\\Media\\Fonts\\Naowh.ttf",
+	["Width"] = 343.99996948242,
+	["BlackLastUpdateName"] = {
+	},
+	["Left"] = 6.0062584877014,
+	["BlackLastUpdateTime"] = {
+	},
 	["Strata"] = "HIGH",
-	["Left"] = 1612.9542236328,
-	["Scale"] = 58,
+	["Height"] = 451,
+	["PersonalHeight"] = 199.9999847412109,
+	["Profiles"] = {
+	["Now"] = "default",
+	["List"] = {
+	},
+	},
+	["Black"] = {
+	"",
+	"",
+	"",
+	},
 	},
 	["MarksSimple"] = {
 	["buffMax"] = 100,
@@ -40,18 +72,16 @@ NUI.MRTData = {
 	["upd4525"] = true,
 	["gnGUIDs"] = {
 	},
-	["Profiles"] = {
-	["Now"] = "default",
-	["List"] = {
-	},
-	},
 	["NoRaid"] = true,
 	["CDECol"] = {
 	},
 	["upd4380"] = true,
-	["Top"] = 833.11407470703,
-	["Left"] = 280.74334716797,
 	["Save"] = {
+	},
+	["Profiles"] = {
+	["Now"] = "default",
+	["List"] = {
+	},
 	},
 	["userDB"] = {
 	},
@@ -63,13 +93,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["enabled"] = true,
@@ -78,13 +108,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["enabled"] = true,
@@ -93,13 +123,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -107,13 +137,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -121,13 +151,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -135,13 +165,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -149,13 +179,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -163,13 +193,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -177,13 +207,13 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
 	["frameGeneral"] = true,
@@ -191,21 +221,21 @@ NUI.MRTData = {
 	["textGeneral"] = true,
 	["methodsGeneral"] = true,
 	["blacklistGeneral"] = true,
-	["fontShadow"] = false,
+	["textureGeneral"] = true,
 	["iconGeneral"] = true,
 	["fontOutline"] = true,
 	["visibilityGeneral"] = true,
 	["fontGeneral"] = true,
 	["textureAnimation"] = true,
-	["textureGeneral"] = true,
+	["fontShadow"] = false,
 	},
 	{
-	["fontShadow"] = false,
 	["iconGray"] = true,
-	["visibilityGeneral"] = true,
-	["fontOutline"] = true,
-	["textureAnimation"] = true,
 	["blacklistGeneral"] = true,
+	["fontOutline"] = true,
+	["visibilityGeneral"] = true,
+	["textureAnimation"] = true,
+	["fontShadow"] = false,
 	},
 	},
 	["Priority"] = {
@@ -215,31 +245,14 @@ NUI.MRTData = {
 	["OptFav"] = {
 	},
 	},
+	["Inspect"] = {
+	["Soulbinds"] = {
+	},
+	},
 	["InspectViewer"] = {
-	["ColorizeLowIlvl685"] = false,
-	["ColorizeNoGems"] = true,
-	["ColorizeNoEnch"] = true,
 	["ColorizeLowIlvl"] = true,
-	["ColorizeNoTopEnchGems"] = false,
-	["ColorizeNoValorUpgrade"] = false,
-	},
-	["RaidCheck"] = {
-	["BuffsCheck"] = true,
-	["ReadyCheckFrame"] = true,
-	["ReadyCheckFrameTimerFade"] = 4,
-	["FlaskExp"] = 1,
-	["RCW_Mini"] = true,
-	["WeaponEnch"] = {
-	},
-	["ReadyCheckLeft"] = 762.57434082031,
-	["ReadyCheckFrameOnlyRL"] = true,
-	["ReadyCheckTop"] = 1033.0179443359,
-	},
-	["WhoPulled"] = {
-	},
-	["Marks"] = {
-	["list"] = {
-	},
+	["ColorizeNoEnch"] = true,
+	["ColorizeNoGems"] = true,
 	},
 	["Interrupts"] = {
 	["Profile"] = 1,
@@ -256,91 +269,17 @@ NUI.MRTData = {
 	},
 	},
 	},
-	["Note"] = {
-	["BlackNames"] = {
-	},
-	["FontSize"] = 12,
-	["AutoLoad"] = {
-	},
-	["CustomRoster"] = {
-	},
-	["ShowOnlyInRaid"] = true,
-	["Fix"] = true,
-	["ScaleBack"] = 0,
-	["Text1"] = "",
-	["enabled"] = true,
-	["Outline"] = true,
-	["Strata"] = "HIGH",
-	["LastUpdateName"] = "",
-	["Width"] = 343.99996948242,
-	["Height"] = 451,
-	["LastUpdateTime"] = 1698869608,
-	["Profiles"] = {
-	["Now"] = "default",
-	["List"] = {
-	},
-	},
-	["BlackLastUpdateName"] = {
-	},
-	["BlackLastUpdateTime"] = {
-	},
-	["Black"] = {
-	"",
-	"",
-	"",
-	},
-	["Top"] = 1038.693359375,
-	["TimerOnlyMy"] = true,
-	["FontName"] = "Interface\\Addons\\NaowhUI\\Core\\Media\\Fonts\\Naowh.ttf",
-	["Left"] = 6.0062584877014,
-	["DefName"] = "Alt",
-	},
-	["LootLink"] = {
-	},
-	["RaidGroups"] = {
-	["upd4550"] = true,
-	["KeepPosInGroup"] = true,
-	["profiles"] = {
-	},
-	},
-	["BossWatcher"] = {
-	["optionsDamageGraph"] = true,
-	["fightsNum"] = 2,
-	["optionsPositionsDist"] = true,
-	["optionsHealingGraph"] = true,
-	["trackingDamageSpells"] = {
-	},
-	},
-	["Logging"] = {
-	},
-	["MarksBar"] = {
-	["pulltimer"] = 10,
-	["pulltimer_right"] = 10,
-	["Show"] = {
-	true,
-	true,
-	true,
-	true,
-	true,
-	},
-	["Strata"] = "HIGH",
-	},
-	["VisNote"] = {
-	["data"] = {
-	{
-	"10840A24293C1644236242",
-	},
-	},
-	["sync_data"] = {
-	},
+	["WhoPulled"] = {
 	},
 	["Timers"] = {
 	["specTimes"] = {
 	[62] = 10,
+	[1467] = 10,
 	[63] = 10,
 	[250] = 10,
 	[251] = 10,
-	[252] = 10,
+	[64] = 10,
+	[1468] = 10,
 	[253] = 10,
 	[65] = 10,
 	[255] = 10,
@@ -365,16 +304,75 @@ NUI.MRTData = {
 	[103] = 10,
 	[72] = 10,
 	[104] = 10,
+	[252] = 10,
 	[73] = 10,
-	[581] = 10,
-	[105] = 10,
-	[577] = 10,
-	[256] = 10,
 	[254] = 10,
-	[64] = 10,
+	[105] = 10,
+	[256] = 10,
+	[577] = 10,
+	[581] = 10,
+	[1473] = 10,
 	},
 	["Type"] = 2,
-	["Strata"] = "HIGH",
 	["timeToKillAnalyze"] = 15,
+	["Strata"] = "HIGH",
+	},
+	["BattleRes"] = {
+	["Scale"] = 58,
+	["Strata"] = "HIGH",
+	["Left"] = 1600.0068359375,
+	["Top"] = 1517.243774414063,
+	},
+	["BossWatcher"] = {
+	["optionsDamageGraph"] = true,
+	["fightsNum"] = 2,
+	["optionsPositionsDist"] = true,
+	["optionsHealingGraph"] = true,
+	["trackingDamageSpells"] = {
+	},
+	},
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+	["KeepPosInGroup"] = true,
+	["upd4550"] = true,
+	["profiles"] = {
+	},
+	},
+	["Marks"] = {
+	["list"] = {
+	},
+	},
+	["Logging"] = {
+	},
+	["MarksBar"] = {
+	["pulltimer"] = 10,
+	["pulltimer_right"] = 10,
+	["Strata"] = "HIGH",
+	["Show"] = {
+	true,
+	true,
+	true,
+	true,
+	true,
+	},
+	},
+	["VisNote"] = {
+	["data"] = {
+	{
+	"5765003F466B1738844357",
+	},
+	},
+	["sync_data"] = {
+	},
+	},
+	["RaidCheck"] = {
+	["FlaskExp"] = 1,
+	["BuffsCheck"] = true,
+	["ReadyCheckFrame"] = true,
+	["ReadyCheckFrameTimerFade"] = 4,
+	["WeaponEnch"] = {
+	},
+	["ReadyCheckFrameOnlyRL"] = true,
 	},
 }
