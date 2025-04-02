@@ -40,6 +40,7 @@ end
 
 function NUI:OnInitialize()
 	local AddOn = "NaowhUI"
+	local C_CVar = C_CVar
 
 	self.db = _G.LibStub("AceDB-3.0"):New("NaowhDB")
 
@@ -52,4 +53,7 @@ function NUI:OnInitialize()
 	_G.LibStub("AceConfig-3.0"):RegisterOptionsTable(AddOn, self.Options)
 	_G.LibStub("AceConfigDialog-3.0"):AddToBlizOptions(AddOn)
 	self:RegisterChatCommand("nui", "HandleChatCommand")
+
+	C_CVar.RegisterCVar("addonProfilerEnabled", "1")
+	C_CVar.SetCVar("addonProfilerEnabled", "0")
 end

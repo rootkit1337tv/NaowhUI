@@ -25,13 +25,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -56,13 +56,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -87,13 +87,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -118,13 +118,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -149,13 +149,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -180,13 +180,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -211,13 +211,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -242,13 +242,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -273,13 +273,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -304,13 +304,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -335,13 +335,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -366,13 +366,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -397,13 +397,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -428,13 +428,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -459,13 +459,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -490,13 +490,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -521,13 +521,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -552,13 +552,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -583,13 +583,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -614,13 +614,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -645,13 +645,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -676,13 +676,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -707,13 +707,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -738,13 +738,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -769,13 +769,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -800,13 +800,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -831,13 +831,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -862,13 +862,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -893,13 +893,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -924,13 +924,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -955,13 +955,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -986,13 +986,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1017,13 +1017,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1048,13 +1048,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1079,13 +1079,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1110,13 +1110,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1141,13 +1141,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1172,13 +1172,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1203,13 +1203,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1234,13 +1234,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1265,13 +1265,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1296,13 +1296,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1327,13 +1327,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1358,13 +1358,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1389,13 +1389,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1420,13 +1420,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1451,13 +1451,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1482,13 +1482,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1513,13 +1513,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1544,13 +1544,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1575,13 +1575,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1606,13 +1606,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1637,13 +1637,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1668,13 +1668,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1699,13 +1699,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1730,13 +1730,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1761,13 +1761,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1792,13 +1792,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1823,13 +1823,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1854,13 +1854,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1885,13 +1885,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1916,13 +1916,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1947,13 +1947,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -1978,13 +1978,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2009,13 +2009,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2040,13 +2040,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2071,13 +2071,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2102,13 +2102,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2133,13 +2133,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2164,13 +2164,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2195,13 +2195,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2226,13 +2226,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2257,13 +2257,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2288,13 +2288,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2319,13 +2319,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2350,13 +2350,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2381,13 +2381,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2412,13 +2412,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2443,13 +2443,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2474,13 +2474,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2505,13 +2505,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2536,13 +2536,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2567,13 +2567,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2598,13 +2598,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2629,13 +2629,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
-	["iconSizeHeight"] = 42,
-	["glowType"] = 3,
-	["customBorderType"] = 3,
-	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
+	["customBorderPath"] = "",
+	["customBorderType"] = 3,
+	["glowType"] = 3,
+	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2660,13 +2660,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2691,13 +2691,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2722,13 +2722,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2753,13 +2753,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2784,13 +2784,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2815,13 +2815,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2846,13 +2846,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2877,13 +2877,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2908,13 +2908,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2939,13 +2939,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -2970,13 +2970,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -3001,13 +3001,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -3032,13 +3032,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -3063,13 +3063,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -3094,13 +3094,13 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
-	["iconSizeHeight"] = 42,
 	},
 	{
 	["customBorderColor"] = {
@@ -3125,13 +3125,44 @@ NUI.NameplateAurasData = {
 	["showOnFriends"] = true,
 	["customBorderSize"] = 1,
 	["animationTimer"] = 10,
+	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
 	["iconGroups"] = {
 	true,
 	},
-	["customBorderPath"] = "",
-	["customBorderType"] = 3,
-	["glowType"] = 3,
+	},
+	{
+	["customBorderColor"] = {
+	1,
+	0.1,
+	0.1,
+	1,
+	},
+	["checkSpellID"] = {
+	[207771] = true,
+	},
+	["showOnPets"] = true,
+	["animationType"] = 2,
+	["iconSizeWidth"] = 42,
+	["showOnNpcs"] = true,
+	["spellName"] = "Fiery Brand",
+	["showOnPlayers"] = true,
+	["enabledState"] = 3,
+	["auraType"] = 3,
+	["showOnEnemies"] = true,
+	["animationDisplayMode"] = 1,
+	["showOnFriends"] = true,
+	["customBorderSize"] = 1,
+	["animationTimer"] = 10,
 	["iconSizeHeight"] = 42,
+	["glowType"] = 3,
+	["customBorderType"] = 3,
+	["customBorderPath"] = "",
+	["iconGroups"] = {
+	true,
+	},
 	},
 	},
 	["DefaultSpellsLastSetImported"] = 4,
@@ -3209,14 +3240,14 @@ NUI.NameplateAurasData = {
 	1,
 	},
 	["FriendlyUnitsAurasEnabledZoneTypes"] = {
-	["none"] = false,
+	["pvp"] = false,
 	["party"] = false,
 	["scenario"] = false,
 	["pvp_bg_40ppl"] = false,
 	["raid"] = false,
 	["unknown"] = false,
 	["arena"] = false,
-	["pvp"] = false,
+	["none"] = false,
 	},
 	["InterruptsUseSharedIconTexture"] = false,
 	["FrameAnchorToNameplate"] = "CENTER",
@@ -3231,8 +3262,8 @@ NUI.NameplateAurasData = {
 	1,
 	},
 	["IconAnchor"] = 3,
-	["StacksFont"] = "Naowh",
-	["StacksTextXOffset"] = 0,
+	["DefaultIconSizeWidth"] = 42,
+	["ShowAurasOnAlliedTargetEvenInDisabledAreas"] = false,
 	["CustomSortMethod"] = "function(aura1, aura2) return aura1.spellName < aura2.spellName; end",
 	["TargetStrata"] = "HIGH",
 	["DebuffBordersPoisonColor"] = {
@@ -3241,7 +3272,7 @@ NUI.NameplateAurasData = {
 	0,
 	1,
 	},
-	["IconSpacing"] = 2,
+	["NameplateIsParent"] = false,
 	["IconZoom"] = 0.1,
 	["BuffBordersColor"] = {
 	0,
@@ -3249,72 +3280,72 @@ NUI.NameplateAurasData = {
 	0,
 	1,
 	},
-	["MinTimeToShowTenthsOfSeconds"] = 0,
+	["UseDefaultAuraTooltip"] = false,
+	["KeepAspectRatio"] = true,
 	["TimerTextColorHundredPercent"] = {
 	0.1,
 	1,
 	0.1,
 	1,
 	},
-	["InterruptsIconSizeWidth"] = 45,
 	["ShowAurasOnPlayerNameplate"] = false,
 	["Additions_ExplosiveOrbs"] = false,
 	["SortMode"] = 2,
-	["AlwaysShowMyAurasBlacklist"] = {
-	},
-	["Additions_DRPvE"] = false,
-	["ShowOnlyOnTarget"] = false,
-	["DispelIconSizeWidth"] = 45,
 	["InterruptsShowOnlyOnPlayers"] = true,
-	["IconYOffset"] = 24,
-	["ShowAurasOnEnemyTargetEvenInDisabledAreas"] = false,
-	["AffixSpiteful"] = true,
-	["AffixSpitefulSound"] = 5274,
+	["Additions_DRPvE"] = false,
+	["NpcBlacklist"] = {
+	},
+	["DispelIconSizeWidth"] = 45,
 	["DebuffBordersCurseColor"] = {
 	0,
 	0,
 	0,
 	1,
 	},
+	["IconGroupName"] = "First Icon Group",
+	["ShowAurasOnEnemyTargetEvenInDisabledAreas"] = false,
+	["IconXOffset"] = 0,
+	["AffixSpitefulSound"] = 5274,
+	["ShowDebuffBorders"] = true,
 	["Additions_DispellableSpells_GlowType"] = 4,
-	["DispelIconSizeHeight"] = 45,
+	["DefaultIconSizeHeight"] = 42,
 	["ShowCooldownAnimation"] = true,
 	["IconAlphaTarget"] = 1,
 	["IconAlpha"] = 1,
 	["ShowCooldownText"] = true,
 	["ShowStacks"] = true,
-	["DefaultIconSizeHeight"] = 42,
-	["ShowDebuffBorders"] = true,
-	["IconXOffset"] = 0,
-	["IconGroupName"] = "First Icon Group",
+	["DispelIconSizeHeight"] = 45,
+	["InterruptsIconSizeWidth"] = 45,
+	["IconSpacing"] = 2,
+	["IconYOffset"] = 24,
 	["Additions_Dispel_InstanceTypes"] = {
-	["none"] = true,
+	["pvp"] = true,
 	["party"] = true,
 	["scenario"] = true,
 	["pvp_bg_40ppl"] = true,
 	["raid"] = true,
 	["unknown"] = true,
 	["arena"] = true,
-	["pvp"] = true,
+	["none"] = true,
 	},
-	["NpcBlacklist"] = {
-	},
+	["AffixSpiteful"] = true,
 	["TimerTextAnchorIcon"] = "CENTER",
+	["ShowOnlyOnTarget"] = false,
 	["EnemyUnitsAurasEnabledZoneTypes"] = {
-	["none"] = true,
+	["pvp"] = true,
 	["party"] = true,
 	["scenario"] = true,
 	["pvp_bg_40ppl"] = true,
 	["raid"] = true,
 	["unknown"] = true,
 	["arena"] = true,
-	["pvp"] = true,
+	["none"] = true,
 	},
-	["KeepAspectRatio"] = true,
-	["UseDefaultAuraTooltip"] = false,
-	["NameplateIsParent"] = false,
-	["ShowAurasOnAlliedTargetEvenInDisabledAreas"] = false,
-	["DefaultIconSizeWidth"] = 42,
+	["AlwaysShowMyAurasBlacklist"] = {
+	},
+	["MinTimeToShowTenthsOfSeconds"] = 0,
+	["StacksTextXOffset"] = 0,
+	["StacksFont"] = "Naowh",
 	},
 	},
 	["HidePlayerBlizzardFrame"] = true,
