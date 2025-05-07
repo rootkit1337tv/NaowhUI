@@ -3,7 +3,6 @@
 	<Script file="DetailsData.lua"/>
 	<Script file="ElvUIData.lua"/>
 	<Script file="HidingBarData.lua"/>
-	<Script file="MRTData.lua"/>
 	<Script file="NameplateAurasData.lua"/>
 	<Script file="OmniCDData.lua"/>
 	<Script file="PlaterData.lua"/>

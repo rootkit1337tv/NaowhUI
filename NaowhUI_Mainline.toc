@@ -1,10 +1,10 @@
 ## Title: |cff0091edNaowh|r|cffffa300UI|r
 ## Notes: NaowhUI
 ## Author: rootkit1337
-## Version: 20250402.01
+## Version: 20250507.01
 ## SavedVariables: NaowhDB
 ## OptionalDeps: ElvUI
-## Interface: 110100
+## Interface: 110105
 ## AddonCompartmentFunc: NaowhUI_AddonCompartmentFunc
 ## IconTexture: Interface\AddOns\NaowhUI\Core\Media\Textures\LogoAddon
 ## Category-enUS: User Interface
