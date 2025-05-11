@@ -63,7 +63,7 @@ function NUI:Initialize()
 		InitializeElvUI()
 	end
 
-	if self.db.global.profiles and not self.db.char.installed then
+	if not self:IsAddOnEnabled("QuaziiUI") and self.db.global.profiles and not self.db.char.installed then
 		self:Notification("Do you wish to load your selected NaowhUI profiles onto this character?", function() self:LoadProfiles() end, function() self.db.char.installed = true end)
 	end
 

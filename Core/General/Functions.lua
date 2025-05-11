@@ -20,7 +20,13 @@ end
 
 function NUI:RunInstaller()
 	if self:IsAddOnEnabled("QuaziiUI") then
-		self:Notification("You have QuaziiUI enabled. Please disable this AddOn to unlock the installer.", function() return true end, function() return true end)
+		self:Notification("You have QuaziiUI enabled. Please disable this AddOn to unlock the installer.", function()
+			C_AddOns.DisableAddOn("QuaziiUI")
+
+			ReloadUI()
+		end, function() return end)
+
+		return
 	end
 
 	if self:IsAddOnEnabled("ElvUI") then
@@ -49,19 +55,17 @@ function NUI:Notification(string, AcceptFunction, DeclineFunction)
 end
 
 function NUI:LoadProfiles()
-	if not self:IsAddOnEnabled("QuaziiUI") then
-		local SE = self:GetModule("Setup")
+	local SE = self:GetModule("Setup")
 
-		for k in pairs(self.db.global.profiles) do
-			if self:IsAddOnEnabled(k) then
-				SE:Setup(k)
-			end
+	for k in pairs(self.db.global.profiles) do
+		if self:IsAddOnEnabled(k) then
+			SE:Setup(k)
 		end
-
-		self.db.char.installed = true
-
-		ReloadUI()
 	end
+
+	self.db.char.installed = true
+
+	ReloadUI()
 end
 
 function NUI:LoadData()
