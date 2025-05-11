@@ -19,18 +19,20 @@ function NUI:OpenToCategory()
 end
 
 function NUI:RunInstaller()
-	if not self:IsAddOnEnabled("QuaziiUI") then
-		if self:IsAddOnEnabled("ElvUI") then
-			local E = unpack(ElvUI)
-			local I = self:GetModule("Installer")
-
-			E:GetModule("PluginInstaller"):Queue(I.Installer)
-
-			return
-		end
-
-		self:OpenToCategory()
+	if self:IsAddOnEnabled("QuaziiUI") then
+		self:Notification("You have QuaziiUI enabled. Please disable this AddOn to unlock the installer.", function() return true end, function() return true end)
 	end
+
+	if self:IsAddOnEnabled("ElvUI") then
+		local E = unpack(ElvUI)
+		local I = self:GetModule("Installer")
+
+		E:GetModule("PluginInstaller"):Queue(I.Installer)
+
+		return
+	end
+
+	self:OpenToCategory()
 end
 
 function NUI:Notification(string, AcceptFunction, DeclineFunction)

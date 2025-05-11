@@ -49,10 +49,7 @@ function NUI:OnInitialize()
 		self.db.global.reset = true
 	end
 
-	if not self:IsAddOnEnabled("QuaziiUI") then
-		_G.LibStub("AceConfig-3.0"):RegisterOptionsTable(AddOn, self.Options)
-		_G.LibStub("AceConfigDialog-3.0"):AddToBlizOptions(AddOn)
-	end
-
+	_G.LibStub("AceConfig-3.0"):RegisterOptionsTable(AddOn, self.Options)
+	_G.LibStub("AceConfigDialog-3.0"):AddToBlizOptions(AddOn)
 	self:RegisterChatCommand("nui", "HandleChatCommand")
 end

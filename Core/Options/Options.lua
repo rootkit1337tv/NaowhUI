@@ -41,7 +41,7 @@ NUI.Options = {
 			name = "AddOn Profiles",
 			order = 1,
 			hidden = function()
-				if NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() then
+				if NUI:IsAddOnEnabled("QuaziiUI") or NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() then
 					return true
 				end
 			end,
@@ -165,7 +165,7 @@ NUI.Options = {
 			name = "Class WeakAuras",
 			order = 2,
 			hidden = function()
-				if not NUI:IsAddOnEnabled("WeakAuras") then
+				if NUI:IsAddOnEnabled("QuaziiUI") or not NUI:IsAddOnEnabled("WeakAuras") then
 					return true
 				end
 			end,
@@ -314,7 +314,7 @@ NUI.Options = {
 			name = "General WeakAuras",
 			order = 3,
 			hidden = function()
-				if NUI:IsAddOnEnabled("ElvUI") or not NUI:IsAddOnEnabled("WeakAuras") then
+				if NUI:IsAddOnEnabled("QuaziiUI") or NUI:IsAddOnEnabled("ElvUI") or not NUI:IsAddOnEnabled("WeakAuras") then
 					return true
 				end
 			end,
@@ -415,7 +415,7 @@ NUI.Options = {
 					name = "Load Profiles",
 					desc = "Load your selected NaowhUI profiles onto this character",
 					hidden = function()
-						if NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() or not NUI.db.global.profiles then
+						if NUI:IsAddOnEnabled("QuaziiUI") or NUI:IsAddOnEnabled("ElvUI") or AreAddOnsDisabled() or not NUI.db.global.profiles then
 							return true
 						end
 					end,
