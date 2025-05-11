@@ -20,7 +20,7 @@ end
 
 function NUI:RunInstaller()
 	if self:IsAddOnEnabled("QuaziiUI") then
-		self:Notification("You have QuaziiUI enabled. Please disable this AddOn to unlock the installer.", function()
+		self:Notification("You currently have the QuaziiUI AddOn enabled. This AddOn is not compatible with NaowhUI. Do you want to disable it?", function()
 			C_AddOns.DisableAddOn("QuaziiUI")
 
 			ReloadUI()
