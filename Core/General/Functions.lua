@@ -19,16 +19,18 @@ function NUI:OpenToCategory()
 end
 
 function NUI:RunInstaller()
-	if self:IsAddOnEnabled("ElvUI") then
-		local E = unpack(ElvUI)
-		local I = self:GetModule("Installer")
+	if not self:IsAddOnEnabled("QuaziiUI") then
+		if self:IsAddOnEnabled("ElvUI") then
+			local E = unpack(ElvUI)
+			local I = self:GetModule("Installer")
 
-		E:GetModule("PluginInstaller"):Queue(I.Installer)
+			E:GetModule("PluginInstaller"):Queue(I.Installer)
 
-		return
+			return
+		end
+
+		self:OpenToCategory()
 	end
-
-	self:OpenToCategory()
 end
 
 function NUI:Notification(string, AcceptFunction, DeclineFunction)
@@ -45,17 +47,19 @@ function NUI:Notification(string, AcceptFunction, DeclineFunction)
 end
 
 function NUI:LoadProfiles()
-	local SE = self:GetModule("Setup")
+	if not self:IsAddOnEnabled("QuaziiUI") then
+		local SE = self:GetModule("Setup")
 
-	for k in pairs(self.db.global.profiles) do
-		if self:IsAddOnEnabled(k) then
-			SE:Setup(k)
+		for k in pairs(self.db.global.profiles) do
+			if self:IsAddOnEnabled(k) then
+				SE:Setup(k)
+			end
 		end
+
+		self.db.char.installed = true
+
+		ReloadUI()
 	end
-
-	self.db.char.installed = true
-
-	ReloadUI()
 end
 
 function NUI:LoadData()

@@ -52,7 +52,6 @@ end
 function NUI:Initialize()
 	local IncompatibleAddOns = {
 		"NaowhUI_Installer",
-		"QuaziiUI",
 		"SharedMedia_Naowh"
 	}
 
