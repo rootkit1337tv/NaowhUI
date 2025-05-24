@@ -1,0 +1,14 @@
+## Title: |cff0091edNaowh|r|cffffa300UI|r_Data
+## Notes: NaowhUI_Data
+## Author: rootkit1337
+## Version: 20250524.01
+## Interface: 110105, 40402, 11507
+## RequiredDeps: NaowhUI
+## LoadOnDemand: 1
+## IconTexture: Interface\AddOns\NaowhUI\Core\Media\Textures\LogoAddon
+
+Cata\Load.xml [AllowLoadGameType cata]
+
+Mainline\Load.xml [AllowLoadGameType mainline]
+
+Vanilla\Load.xml [AllowLoadGameType vanilla]
