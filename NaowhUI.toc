@@ -1,7 +1,7 @@
 ## Title: |cff0091edNaowh|r|cffffa300UI|r
 ## Notes: NaowhUI
 ## Author: rootkit1337
-## Version: 20250524.01
+## Version: 20250524.02
 ## SavedVariables: NaowhDB
 ## OptionalDeps: ElvUI
 ## Interface: 110105, 40402, 11507
@@ -26,8 +26,4 @@ embeds.xml
 
 Core\Load.xml
 
-Cata\Load.xml [AllowLoadGameType cata]
-
-Mainline\Load.xml [AllowLoadGameType mainline]
-
-Vanilla\Load.xml [AllowLoadGameType vanilla]
+[Game]\Load.xml
