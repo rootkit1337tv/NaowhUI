@@ -2,9 +2,8 @@
 ## Notes: NaowhUI_Data
 ## Author: rootkit1337
 ## Version: 20250524.03
-## Interface: 110105, 11507
+## Interface: 40402
 ## RequiredDeps: NaowhUI
 ## LoadOnDemand: 1
-## IconTexture: Interface\AddOns\NaowhUI\Core\Media\Textures\LogoAddon
 
-[Game]\Load.xml
+Cata\Load.xml

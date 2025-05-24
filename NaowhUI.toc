@@ -1,10 +1,10 @@
 ## Title: |cff0091edNaowh|r|cffffa300UI|r
 ## Notes: NaowhUI
 ## Author: rootkit1337
-## Version: 20250524.02
+## Version: 20250524.03
 ## SavedVariables: NaowhDB
 ## OptionalDeps: ElvUI
-## Interface: 110105, 40402, 11507
+## Interface: 110105, 11507
 ## X-Curse-Project-ID:
 ## X-Wago-ID: bGoMrq60
 ## AddonCompartmentFunc: NaowhUI_AddonCompartmentFunc

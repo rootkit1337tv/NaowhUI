@@ -1,0 +1,15 @@
+## Title: |cff0091edNaowh|r|cffffa300UI|r
+## Notes: NaowhUI
+## Author: rootkit1337
+## Version: 20250524.03
+## SavedVariables: NaowhDB
+## OptionalDeps: ElvUI
+## Interface: 40402
+## X-Curse-Project-ID:
+## X-Wago-ID: bGoMrq60
+
+embeds.xml
+
+Core\Load.xml
+
+Cata\Load.xml
