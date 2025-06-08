@@ -82,19 +82,6 @@ I.Installer = {
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("HidingBar", true) end)
 			PluginInstallFrame.Option1:SetText("Setup HidingBar")
 		end,
-		[6] = function()
-			if not NUI:IsAddOnEnabled("NameplateAuras") then
-				PluginInstallFrame.SubTitle:SetText("NameplateAuras is not enabled, enable it to unlock this step.")
-
-				return
-			end
-
-			PluginInstallFrame.SubTitle:SetText("NameplateAuras")
-			PluginInstallFrame.Desc1:SetText("Click on the button below to setup Naowh's NameplateAuras profile.")
-			PluginInstallFrame.Option1:Show()
-			PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("NameplateAuras", true) end )
-			PluginInstallFrame.Option1:SetText("Setup NameplateAuras")
-		end,
 		[7] = function()
 			if not NUI:IsAddOnEnabled("Plater") then
 				PluginInstallFrame.SubTitle:SetText("Plater is not enabled, enable it to unlock this step.")
@@ -120,7 +107,7 @@ I.Installer = {
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function()
 				NUI:LoadData()
-				NUI:ImportWeakAura(PluginInstallFrame, "HIGH", NUI.UIElementsData)
+				NUI:ImportWeakAura(PluginInstallFrame, "HIGH", NUI.UIElements)
 			end)
 			PluginInstallFrame.Option1:SetText("UI Elements")
 		end,
@@ -152,11 +139,10 @@ I.Installer = {
 		[3] = "BigWigs",
 		[4] = "Details",
 		[5] = "HidingBar",
-		[6] = "NameplateAuras",
-		[7] = "Plater",
-		[8] = "General WeakAuras",
-		[9] = "Class WeakAuras",
-		[10] = "Installation Complete",
+		[6] = "Plater",
+		[7] = "General WeakAuras",
+		[8] = "Class WeakAuras",
+		[9] = "Installation Complete",
 	},
 	StepTitlesColor = {1, 1, 1},
 	StepTitlesColorSelected = {0, 179/255, 1},

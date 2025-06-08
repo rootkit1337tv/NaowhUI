@@ -6,20 +6,21 @@ local function AreAddOnsDisabled()
 		["BigWigs"] = true,
 		["Details"] = true,
 		["HidingBar"] = true,
-		["MRT"] = true,
 		["NameplateAuras"] = true,
 		["OmniCD"] = true,
 		["Plater"] = true,
 		["WarpDeplete"] = true
 	}
+	local NameplateAuras = AddOns.NameplateAuras
 	local OmniCD = AddOns.OmniCD
 	local WarpDeplete = AddOns.WarpDeplete
 
 	if NUI.Cata then
+		NameplateAuras = nil
 		OmniCD = nil
 		WarpDeplete = nil
 	elseif NUI.Classic then
-		AddOns.MRT = nil
+		NameplateAuras = nil
 		OmniCD = nil
 		WarpDeplete = nil
 	end
@@ -86,20 +87,6 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						SE:Setup("HidingBar", true)
-						NUI:InstallComplete(true)
-					end
-				},
-				mrt = {
-					name = "MRT",
-					desc = "Setup MRT",
-					hidden = function()
-						if NUI.Classic or not NUI:IsAddOnEnabled("MRT") then
-							return true
-						end
-					end,
-					type = "execute",
-					func = function()
-						SE:Setup("MRT", true)
 						NUI:InstallComplete(true)
 					end
 				},
@@ -182,7 +169,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.DeathKnightData)
+						NUI:ImportWeakAura(nil, nil, NUI.DeathKnight)
 					end
 				},
 				demonhunter = {
@@ -196,7 +183,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.DemonHunterData)
+						NUI:ImportWeakAura(nil, nil, NUI.DemonHunter)
 					end
 				},
 				druid = {
@@ -205,7 +192,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.DruidData)
+						NUI:ImportWeakAura(nil, nil, NUI.Druid)
 					end
 				},
 				evoker = {
@@ -219,7 +206,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.EvokerData)
+						NUI:ImportWeakAura(nil, nil, NUI.Evoker)
 					end
 				},
 				hunter = {
@@ -228,7 +215,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.HunterData)
+						NUI:ImportWeakAura(nil, nil, NUI.Hunter)
 					end
 				},
 				mage = {
@@ -237,7 +224,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.MageData)
+						NUI:ImportWeakAura(nil, nil, NUI.Mage)
 					end
 				},
 				monk = {
@@ -251,7 +238,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.MonkData)
+						NUI:ImportWeakAura(nil, nil, NUI.Monk)
 					end
 				},
 				paladin = {
@@ -260,7 +247,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.PaladinData)
+						NUI:ImportWeakAura(nil, nil, NUI.Paladin)
 					end
 				},
 				priest = {
@@ -269,7 +256,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.PriestData)
+						NUI:ImportWeakAura(nil, nil, NUI.Priest)
 					end
 				},
 				rogue = {
@@ -278,7 +265,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.RogueData)
+						NUI:ImportWeakAura(nil, nil, NUI.Rogue)
 					end
 				},
 				shaman = {
@@ -287,7 +274,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.ShamanData)
+						NUI:ImportWeakAura(nil, nil, NUI.Shaman)
 					end
 				},
 				warlock = {
@@ -296,7 +283,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.WarlockData)
+						NUI:ImportWeakAura(nil, nil, NUI.Warlock)
 					end
 				},
 				warrior = {
@@ -305,7 +292,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.WarriorData)
+						NUI:ImportWeakAura(nil, nil, NUI.Warrior)
 					end
 				}
 			}
@@ -331,7 +318,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.CoreData)
+						NUI:ImportWeakAura(nil, nil, NUI.Core)
 					end
 				},
 				uielements = {
@@ -345,7 +332,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.UIElementsData)
+						NUI:ImportWeakAura(nil, nil, NUI.UIElements)
 					end
 				},
 				raid = {
@@ -359,7 +346,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.RaidData)
+						NUI:ImportWeakAura(nil, nil, NUI.Raid)
 					end
 				},
 				generic = {
@@ -373,7 +360,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.GenericData)
+						NUI:ImportWeakAura(nil, nil, NUI.Generic)
 					end
 				},
 				season1 = {
@@ -387,21 +374,7 @@ NUI.Options = {
 					type = "execute",
 					func = function()
 						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.Season2Data)
-					end
-				},
-				tier11 = {
-					name = "Tier 11",
-					desc = "Import the Tier 11 WeakAura",
-					hidden = function()
-						if NUI.Retail or NUI.Classic then
-							return true
-						end
-					end,
-					type = "execute",
-					func = function()
-						NUI:LoadData()
-						NUI:ImportWeakAura(nil, nil, NUI.Tier11Data)
+						NUI:ImportWeakAura(nil, nil, NUI.Season2)
 					end
 				}
 			}

@@ -6,7 +6,6 @@ local Profile = "Naowh"
 local AceDB = LibStub("AceDB-3.0")
 local ReloadUI = ReloadUI
 local type = type
-local VMRT = VMRT
 local pairs = pairs
 local SetupTable = {}
 
@@ -37,7 +36,7 @@ local function SetupComplete(addon)
 end
 
 local function ImportBigWigs(addon)
-	BigWigsAPI.RegisterProfile(NUI.title, NUI.BigWigsData, Profile, function(callback)
+	BigWigsAPI.RegisterProfile(NUI.title, NUI.BigWigs, Profile, function(callback)
 		if not callback then
 			return
 		end
@@ -61,7 +60,7 @@ end
 local function ImportElvUI(addon, scale)
 	local D = E.Distributor
 	local SC = NUI:GetModule("Scaling")
-	local ProfileType, _, ProfileData = D:Decode(NUI.ElvUIData)
+	local ProfileType, _, ProfileData = D:Decode(NUI.ElvUI)
 
 	if NUI.ReloadRequired then
 		NUI:Notification("A reload is required in order to select a different scale. Do you wish to reload your UI?", function() ReloadUI() end)
@@ -81,37 +80,9 @@ local function ImportElvUI(addon, scale)
 	E:SetupCVars(true)
 end
 
-local function ImportMRT(addon)
-	local MRTProfile = VMRT.Profile or "default"
-	local IgnoredKeys = {
-		["Addon"] = true,
-		["Profile"] = true,
-		["ProfileKeys"] = true,
-		["Profiles"] = true,
-	}
-
-	VMRT.Profiles[MRTProfile] = {}
-
-	for k, v in pairs(VMRT) do
-		if not IgnoredKeys[k] then
-			VMRT.Profiles[MRTProfile][k] = v
-			VMRT[k] = nil
-		end
-	end
-
-	for k, v in pairs(NUI.MRTData) do
-		VMRT[k] = v
-	end
-
-	SetupComplete(addon)
-
-	VMRT.Profile = Profile
-	VMRT.Profiles[Profile] = {}
-end
-
 local function ImportPlater(addon)
 	local Plater = Plater
-	local DecompressedData = Plater.DecompressData(NUI.PlaterData, "print")
+	local DecompressedData = Plater.DecompressData(NUI.Plater, "print")
 	local HookableMethod = "OnProfileCreated"
 
 	if not DecompressedData or type(DecompressedData) ~= "table" then
@@ -166,11 +137,11 @@ function SetupTable.Details(import, addon)
 	local Details = Details
 
 	if import then
-		local ProfileString = DetailsFramework:Trim(NUI.DetailsData)
+		local ProfileString = DetailsFramework:Trim(NUI.Details)
 		local AutomationData = Details:DecompressData(ProfileString, "print")
 
 		Details:EraseProfile(Profile)
-		Details:ImportProfile(NUI.DetailsData, Profile, false, false, true)
+		Details:ImportProfile(NUI.Details, Profile, false, false, true)
 
 		for i, v in Details:ListInstances() do
 			DetailsFramework.table.copy(v.hide_on_context, AutomationData.profile.instances[i].hide_on_context)
@@ -228,7 +199,7 @@ function SetupTable.HidingBar(import, addon)
 			end
 		end
 
-		tinsert(Database, NUI.HidingBarData)
+		tinsert(Database, NUI.HidingBar)
 
 		HidingBarDB.profiles = Database
 
@@ -246,22 +217,6 @@ function SetupTable.HidingBar(import, addon)
 	NUI.db.global.profiles[addon] = nil
 end
 
-function SetupTable.MRT(import, addon)
-	local Character = NUI.mynameRealm:gsub(" ","")
-
-	if import then
-		ImportMRT(addon)
-	end
-
-	if not (VMRT.Profile == Profile or VMRT.Profiles[Profile]) then
-		NUI.db.global.profiles[addon] = nil
-
-		return
-	end
-
-	VMRT.ProfileKeys[Character] = Profile
-end
-
 function SetupTable.NameplateAuras(import, addon)
 	local NameplateAurasAceDB = NameplateAurasAceDB
 	local Database = AceDB:New(NameplateAurasAceDB)
@@ -269,7 +224,7 @@ function SetupTable.NameplateAuras(import, addon)
 	if import then
 		SetupComplete(addon)
 
-		NameplateAurasAceDB.profiles[Profile] = NUI.NameplateAurasData
+		NameplateAurasAceDB.profiles[Profile] = NUI.NameplateAuras
 
 		for _, v in ipairs(NameplateAurasAceDB.profiles[Profile].CustomSpells2) do
 			local spellNamenew = C_Spell.GetSpellName(next(v.checkSpellID))
@@ -296,7 +251,7 @@ function SetupTable.OmniCD(import, addon)
 	if import then
 		SetupComplete(addon)
 
-		OmniCDDB.profiles[Profile] = NUI.OmniCDData
+		OmniCDDB.profiles[Profile] = NUI.OmniCD
 	end
 
 	if not IsProfileExisting(OmniCDDB) then
@@ -337,7 +292,7 @@ function SetupTable.WarpDeplete(import, addon)
 	if import then
 		SetupComplete(addon)
 
-		WarpDepleteDB.profiles[Profile] = NUI.WarpDepleteData
+		WarpDepleteDB.profiles[Profile] = NUI.WarpDeplete
 	end
 
 	if not IsProfileExisting(WarpDepleteDB) then

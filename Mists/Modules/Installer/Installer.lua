@@ -133,15 +133,9 @@ I.Installer = {
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function()
 				NUI:LoadData()
-				NUI:ImportWeakAura(PluginInstallFrame, "HIGH", NUI.CoreData)
+				NUI:ImportWeakAura(PluginInstallFrame, "HIGH", NUI.Core)
 			end)
 			PluginInstallFrame.Option1:SetText("Core")
-			PluginInstallFrame.Option2:Show()
-			PluginInstallFrame.Option2:SetScript("OnClick", function()
-				NUI:LoadData()
-				NUI:ImportWeakAura(PluginInstallFrame, "HIGH", NUI.Tier11Data)
-			end)
-			PluginInstallFrame.Option2:SetText("Tier 11")
 		end,
 		[10] = function()
 			if not NUI:IsAddOnEnabled("WeakAuras") then
@@ -171,12 +165,10 @@ I.Installer = {
 		[3] = "BigWigs",
 		[4] = "Details",
 		[5] = "HidingBar",
-		[6] = "MRT",
-		[7] = "NameplateAuras",
-		[8] = "Plater",
-		[9] = "General WeakAuras",
-		[10] = "Class WeakAuras",
-		[11] = "Installation Complete",
+		[6] = "Plater",
+		[7] = "General WeakAuras",
+		[8] = "Class WeakAuras",
+		[9] = "Installation Complete",
 	},
 	StepTitlesColor = {1, 1, 1},
 	StepTitlesColorSelected = {0, 179/255, 1},
