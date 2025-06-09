@@ -72,10 +72,6 @@ function NUI:Initialize()
 			C_AddOns.DisableAddOn(v)
 		end
 	end
-
-	if self.Cata then
-		self:Print("This game version will be deprecated and the AddOn will cease to function with the launch of patch 5.x (Mists prepatch). Please backup your settings to avoid being unable to install profiles.")
-	end
 end
 
 function NUI:HandleChatCommand(input)
