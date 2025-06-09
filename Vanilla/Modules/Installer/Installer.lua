@@ -82,7 +82,7 @@ I.Installer = {
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("HidingBar", true) end)
 			PluginInstallFrame.Option1:SetText("Setup HidingBar")
 		end,
-		[7] = function()
+		[6] = function()
 			if not NUI:IsAddOnEnabled("Plater") then
 				PluginInstallFrame.SubTitle:SetText("Plater is not enabled, enable it to unlock this step.")
 
@@ -95,7 +95,7 @@ I.Installer = {
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("Plater", true) end)
 			PluginInstallFrame.Option1:SetText("Setup Plater")
 		end,
-		[8] = function()
+		[7] = function()
 			if not NUI:IsAddOnEnabled("WeakAuras") then
 				PluginInstallFrame.SubTitle:SetText("WeakAuras is not enabled, enable it to unlock this step.")
 
@@ -111,7 +111,7 @@ I.Installer = {
 			end)
 			PluginInstallFrame.Option1:SetText("UI Elements")
 		end,
-		[9] = function()
+		[8] = function()
 			if not NUI:IsAddOnEnabled("WeakAuras") then
 				PluginInstallFrame.SubTitle:SetText("WeakAuras is not enabled, enable it to unlock this step.")
 
@@ -124,7 +124,7 @@ I.Installer = {
 			PluginInstallFrame.Option1:SetScript("OnClick", function() NUI:OpenToCategory() end)
 			PluginInstallFrame.Option1:SetText("Open Settings")
 		end,
-		[10] = function()
+		[9] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
 			PluginInstallFrame.Desc2:SetText("Please click on the button below to reload your UI.")
