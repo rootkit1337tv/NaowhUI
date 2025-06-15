@@ -5,7 +5,7 @@ local SE = NUI:GetModule("Setup")
 I.Installer = {
 	Title = format("%s %s", NUI.title, "Installation"),
 	Name = NUI.title,
-	tutorialImage = "Interface\\AddOns\\NaowhUI\\Core\\Media\\Textures\\NaowhUILogoCata.tga",
+	tutorialImage = "Interface\\AddOns\\NaowhUI\\Core\\Media\\Textures\\NaowhUILogoMists.tga",
 	Pages = {
 		[1] = function()
 			if not NUI.db.global.profiles then

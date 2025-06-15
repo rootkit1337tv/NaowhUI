@@ -11,18 +11,11 @@ local function AreAddOnsDisabled()
 		["Plater"] = true,
 		["WarpDeplete"] = true
 	}
-	local NameplateAuras = AddOns.NameplateAuras
-	local OmniCD = AddOns.OmniCD
-	local WarpDeplete = AddOns.WarpDeplete
 
-	if NUI.Cata then
-		NameplateAuras = nil
-		OmniCD = nil
-		WarpDeplete = nil
-	elseif NUI.Classic then
-		NameplateAuras = nil
-		OmniCD = nil
-		WarpDeplete = nil
+	if NUI.Cata or NUI.Mists or NUI.Classic then
+		AddOns.NameplateAuras = nil
+		AddOns.OmniCD = nil
+		AddOns.WarpDeplete = nil
 	end
 
 	for k in pairs(AddOns) do
