@@ -185,6 +185,18 @@ NUI.options = {
 					end,
 					type = "execute",
 					func = function() SE:Setup("WeakAuras", nil, nil, nil, nil, "Season3") end
+				},
+				raid = {
+					name = "Raid",
+					desc = "Import the Raid WeakAura",
+					hidden = function()
+						if NUI.Mists or NUI.Classic then
+
+							return true
+						end
+					end,
+					type = "execute",
+					func = function() SE:Setup("WeakAuras", nil, nil, nil, nil, "raid") end
 				}
 			}
 		},

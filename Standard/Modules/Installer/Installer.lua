@@ -153,6 +153,9 @@ I.installer = {
 			PluginInstallFrame.Option3:Show()
 			PluginInstallFrame.Option3:SetScript("OnClick", function() SE:Setup("WeakAuras", nil, nil, PluginInstallFrame, "HIGH", "Season3") end)
 			PluginInstallFrame.Option3:SetText("M+ Season 3")
+			PluginInstallFrame.Option4:Show()
+			PluginInstallFrame.Option4:SetScript("OnClick", function() SE:Setup("WeakAuras", nil, nil, PluginInstallFrame, "HIGH", "raid") end)
+			PluginInstallFrame.Option4:SetText("Raid")
 		end,
 		[11] = function()
 			PluginInstallFrame.SubTitle:SetText("Class WeakAuras")
