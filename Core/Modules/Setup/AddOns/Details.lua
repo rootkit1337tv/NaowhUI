@@ -14,6 +14,8 @@ function SE.Details(import, addon)
 			AS = unpack(AddOnSkins)
 
 			AS.db.EmbedSystem = nil
+			AS.db.EmbedSystemDual = nil
+			AS.db.EmbedOoC = nil
 		end
 
 		Details:EraseProfile("Naowh")
