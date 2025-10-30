@@ -13,7 +13,7 @@ function NUI:Initialize()
 	local Details = Details
 	local E
 
-	if self:IsAddOnEnabled("Details") then
+	if not self.Midnight and self:IsAddOnEnabled("Details") then
 		if Details.is_first_run and #Details.custom == 0 then
 			Details:AddDefaultCustomDisplays()
 		end
@@ -23,7 +23,7 @@ function NUI:Initialize()
 		Details.is_version_first_run = false
 	end
 
-	if self:IsAddOnEnabled("ElvUI") then
+	if not self.Midnight and self:IsAddOnEnabled("ElvUI") then
 		E = unpack(ElvUI)
 
 		if E.InstallFrame and E.InstallFrame:IsShown() then
@@ -42,7 +42,7 @@ function NUI:Initialize()
 		E.global.ignoreIncompatible = true
 	end
 
-	if not InCombatLockdown() and not self:IsAddOnEnabled("QuaziiUI") and C_AddOns.DoesAddOnExist("NaowhUI_Data") and self.db.global.profiles and not self.db.char.loaded then
+	if not self.Midnight and not InCombatLockdown() and not self:IsAddOnEnabled("QuaziiUI") and C_AddOns.DoesAddOnExist("NaowhUI_Data") and self.db.global.profiles and not self.db.char.loaded then
 		self.Notification("Do you wish to load your installed profiles onto this character?", function() self:LoadProfiles() end, function() self.db.char.loaded = true end)
 	end
 end
