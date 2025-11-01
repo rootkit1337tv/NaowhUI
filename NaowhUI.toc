@@ -4,7 +4,7 @@
 ## Version: @project-version@
 ## SavedVariables: NaowhDB
 ## OptionalDeps: ElvUI
-## Interface: 110205, 50501
+## Interface: 110205, 50503
 ## X-Wago-ID: n6VPvLGd
 ## AddonCompartmentFunc: NaowhUI_AddonCompartmentFunc
 ## IconTexture: Interface\AddOns\NaowhUI\Core\Media\Textures\LogoAddon
