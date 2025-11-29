@@ -14,7 +14,7 @@ local function AreAddOnsEnabled()
 		["WarpDeplete"] = true
 	}
 
-	if NUI.Mists or NUI.Classic then
+	if NUI.TBC or NUI.Mists or NUI.Classic then
 		addons.NameplateAuras = nil
 		addons.OmniCD = nil
 		addons.WarpDeplete = nil
@@ -87,7 +87,7 @@ NUI.options = {
 					name = "NameplateAuras",
 					desc = "Setup NameplateAuras",
 					hidden = function()
-						if NUI.Mists or NUI.Classic or not NUI:IsAddOnEnabled("NameplateAuras") then
+						if NUI.TBC or NUI.Mists or NUI.Classic or not NUI:IsAddOnEnabled("NameplateAuras") then
 
 							return true
 						end
@@ -103,7 +103,7 @@ NUI.options = {
 					name = "OmniCD",
 					desc = "Setup OmniCD",
 					hidden = function()
-						if NUI.Mists or NUI.Classic or not NUI:IsAddOnEnabled("OmniCD") then
+						if NUI.TBC or NUI.Mists or NUI.Classic or not NUI:IsAddOnEnabled("OmniCD") then
 
 							return true
 						end
@@ -135,7 +135,7 @@ NUI.options = {
 					name = "WarpDeplete",
 					desc = "Setup WarpDeplete",
 					hidden = function()
-						if NUI.Mists or NUI.Classic or not NUI:IsAddOnEnabled("WarpDeplete") then
+						if NUI.TBC or NUI.Mists or NUI.Classic or not NUI:IsAddOnEnabled("WarpDeplete") then
 
 							return true
 						end
@@ -166,7 +166,7 @@ NUI.options = {
 					name = "M+ Generic",
 					desc = "Import the M+ Generic WeakAura",
 					hidden = function()
-						if NUI.Mists or NUI.Classic then
+						if NUI.TBC or NUI.Mists or NUI.Classic then
 
 							return true
 						end
@@ -178,7 +178,7 @@ NUI.options = {
 					name = "M+ Season 3",
 					desc = "Import the M+ Season 3 WeakAura",
 					hidden = function()
-						if NUI.Mists or NUI.Classic then
+						if NUI.TBC or NUI.Mists or NUI.Classic then
 
 							return true
 						end
@@ -190,7 +190,7 @@ NUI.options = {
 					name = "Raid",
 					desc = "Import the Raid WeakAura",
 					hidden = function()
-						if NUI.Mists or NUI.Classic then
+						if NUI.TBC or NUI.Mists or NUI.Classic then
 
 							return true
 						end
@@ -215,7 +215,7 @@ NUI.options = {
 					name = "Death Knight",
 					desc = "Import the Death Knight Class WeakAura",
 					hidden = function()
-						if NUI.Classic then
+						if NUI.TBC or NUI.Classic then
 
 							return true
 						end
@@ -227,7 +227,7 @@ NUI.options = {
 					name = "Demon Hunter",
 					desc = "Import the Demon Hunter Class WeakAura",
 					hidden = function()
-						if NUI.Mists or NUI.Classic then
+						if NUI.TBC or NUI.Mists or NUI.Classic then
 
 							return true
 						end
@@ -245,7 +245,7 @@ NUI.options = {
 					name = "Evoker",
 					desc = "Import the Evoker Class WeakAura",
 					hidden = function()
-						if NUI.Mists or NUI.Classic then
+						if NUI.TBC or NUI.Mists or NUI.Classic then
 
 							return true
 						end
@@ -269,7 +269,7 @@ NUI.options = {
 					name = "Monk",
 					desc = "Import the Monk Class WeakAura",
 					hidden = function()
-						if NUI.Classic then
+						if NUI.TBC or NUI.Classic then
 
 							return true
 						end
