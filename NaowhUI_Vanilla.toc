@@ -4,7 +4,7 @@
 ## Version: @project-version@
 ## SavedVariables: NaowhDB
 ## OptionalDeps: ElvUI
-## Interface: 11507
+## Interface: 11508
 ## X-Wago-ID: n6VPvLGd
 
 embeds.xml
