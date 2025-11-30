@@ -22,7 +22,6 @@ do
 	NUI.Mists = WOW_PROJECT_ID == WOW_PROJECT_MISTS_CLASSIC
 	NUI.Retail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 	NUI.Classic = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
-	NUI.Midnight = select(4, GetBuildInfo()) >= 120000
 end
 
 do

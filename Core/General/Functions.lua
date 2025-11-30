@@ -36,12 +36,6 @@ function NUI:RunInstaller()
 	local E
 	local PI
 
-	if self.Midnight then
-		self:Print("This functionality is locked due to AddOn restrictions in place for Midnight.")
-
-		return
-	end
-
 	if InCombatLockdown() then
 		self:Print("This functionality is not available in combat")
 

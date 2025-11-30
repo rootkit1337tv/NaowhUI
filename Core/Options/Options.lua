@@ -36,7 +36,7 @@ NUI.options = {
 			name = "AddOn Profiles",
 			order = 1,
 			hidden = function()
-				if NUI.Midnight or InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or NUI:IsAddOnEnabled("ElvUI") or not AreAddOnsEnabled() then
+				if InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or NUI:IsAddOnEnabled("ElvUI") or not AreAddOnsEnabled() then
 
 					return true
 				end
@@ -149,7 +149,7 @@ NUI.options = {
 			name = "General WeakAuras",
 			order = 2,
 			hidden = function()
-				if NUI.Midnight or InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or NUI:IsAddOnEnabled("ElvUI") or not NUI:IsAddOnEnabled("WeakAuras") then
+				if InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or NUI:IsAddOnEnabled("ElvUI") or not NUI:IsAddOnEnabled("WeakAuras") then
 
 					return true
 				end
@@ -204,7 +204,7 @@ NUI.options = {
 			name = "Class WeakAuras",
 			order = 3,
 			hidden = function()
-				if NUI.Midnight or InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or not NUI:IsAddOnEnabled("WeakAuras") then
+				if InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or not NUI:IsAddOnEnabled("WeakAuras") then
 
 					return true
 				end
@@ -324,7 +324,7 @@ NUI.options = {
 					name = "Load Profiles",
 					desc = "Load your installed profiles onto this character",
 					hidden = function()
-						if NUI.Midnight or InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or NUI:IsAddOnEnabled("ElvUI") or not NUI.db.global.profiles or not AreAddOnsEnabled() then
+						if InCombatLockdown() or NUI:IsAddOnEnabled("QuaziiUI") or not C_AddOns.DoesAddOnExist("NaowhUI_Data") or NUI:IsAddOnEnabled("ElvUI") or not NUI.db.global.profiles or not AreAddOnsEnabled() then
 
 							return true
 						end
