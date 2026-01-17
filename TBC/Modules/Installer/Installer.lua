@@ -5,7 +5,7 @@ local SE = NUI:GetModule("Setup")
 I.installer = {
 	Title = format("%s %s", NUI.title, "Installation"),
 	Name = NUI.title,
-	tutorialImage = "Interface\\AddOns\\NaowhUI\\Core\\Media\\Textures\\NaowhUILogoVanilla.tga",
+	tutorialImage = "Interface\\AddOns\\NaowhUI\\Core\\Media\\Textures\\NaowhUILogoTBC.tga",
 	Pages = {
 		[1] = function()
 			PluginInstallFrame.SubTitle:SetFormattedText("Welcome to %s", NUI.title)
