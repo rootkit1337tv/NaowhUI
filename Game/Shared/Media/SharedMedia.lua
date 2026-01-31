@@ -12,3 +12,5 @@ LSM:Register(MediaType_STATUSBAR, "NaowhDetails",       [[Interface\Addons\Naowh
 LSM:Register(MediaType_STATUSBAR, "NaowhLeft",          [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\NaowhLeft]])
 LSM:Register(MediaType_STATUSBAR, "NaowhMouseover",     [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\NaowhMouseover]])
 LSM:Register(MediaType_STATUSBAR, "NaowhRight",         [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\NaowhRight]])
+LSM:Register(MediaType_STATUSBAR, "NaowhTarget",         [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\NaowhTarget]])
+LSM:Register(MediaType_STATUSBAR, "arrow_glow",         [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\arrow_glow]])
