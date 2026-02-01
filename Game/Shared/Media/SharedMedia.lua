@@ -4,8 +4,8 @@ local koKR, ruRU, zhCN, zhTW, western = LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_ruRU
 local MediaType_FONT = LSM.MediaType.FONT
 local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
 
-LSM:Register(MediaType_FONT, "GothamNarrowUltra",           [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\GothamNarrowUltra.ttf]],                 koKR + ruRU + zhCN + zhTW + western)
-LSM:Register(MediaType_FONT, "Naowh",                       [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\Naowh.ttf]],                             koKR + ruRU + zhCN + zhTW + western)
+LSM:Register(MediaType_FONT, "GothamNarrowUltra",       [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\GothamNarrowUltra.ttf]],                           koKR + ruRU + zhCN + zhTW + western)
+LSM:Register(MediaType_FONT, "Naowh",                   [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\Naowh.ttf]],                                       koKR + ruRU + zhCN + zhTW + western)
 
 LSM:Register(MediaType_STATUSBAR, "Melli",              [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\Melli]])
 LSM:Register(MediaType_STATUSBAR, "NaowhDetails",       [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\NaowhDetails]])

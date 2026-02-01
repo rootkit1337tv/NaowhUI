@@ -26,7 +26,9 @@ local function ImportElvUI(addon, resolution)
     DI:SetImportedProfile(profileType, "Naowh", data, true)
     E:SetupCVars(true)
 
+    E.data.global.general.mapAlphaWhenMoving = 0.4
     E.data.global.general.UIScale = D[profile][2]
+    E.data.global.general.WorldMapCoordinates.position = "BOTTOM"
 
     NUI.db.char.loaded = true
     NUI.db.global.version = NUI.version
