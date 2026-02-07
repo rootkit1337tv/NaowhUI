@@ -3,6 +3,7 @@
     <Script file="BigWigs.lua"/>
     <Script file="Blizzard_EditMode.lua"/>
     <Script file="Details.lua"/>
+    <Script file="EditMode.lua"/>
     <Script file="ElvUI.lua"/>
     <Script file="Plater.lua"/>
     <Script file="WarpDeplete.lua"/>

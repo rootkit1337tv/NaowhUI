@@ -51,3 +51,42 @@ function NUI:OnInitialize()
 
     self.category = select(2, _G.LibStub("AceConfigDialog-3.0"):AddToBlizOptions("NaowhUI"))
 end
+
+
+function NUI:SecureSlashCommand()
+    local function NUISlashHandler(msg, editBox)
+        NUI:HandleChatCommand(msg)
+    end
+
+    local function CleanupConflictingCommands()
+        for name, handler in pairs(_G.SlashCmdList) do
+            if name ~= "NUI" then
+                for i = 1, 10 do
+                    local slashVar = "SLASH_" .. name .. i
+                    local slashCmd = _G[slashVar]
+                    if slashCmd and slashCmd:lower() == "/nui" then
+                        _G[slashVar] = nil
+                    end
+                end
+            end
+        end
+
+        _G.SLASH_NUI1 = "/nui"
+        _G.SlashCmdList["NUI"] = NUISlashHandler
+
+        if hash_SlashCmdList then
+            hash_SlashCmdList["/nui"] = "NUI"
+        end
+    end
+
+    CleanupConflictingCommands()
+
+    local watchFrame = CreateFrame("Frame")
+    watchFrame:RegisterEvent("PLAYER_LOGIN")
+    watchFrame:RegisterEvent("ADDON_LOADED")
+    watchFrame:SetScript("OnEvent", function(self, event, addon)
+        CleanupConflictingCommands()
+    end)
+
+    C_Timer.After(5, CleanupConflictingCommands)
+end
