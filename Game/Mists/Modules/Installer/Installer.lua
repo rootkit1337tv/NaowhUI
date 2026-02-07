@@ -26,7 +26,10 @@ I.installer = {
             PluginInstallFrame.SubTitle:SetText("ElvUI")
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("ElvUI", true) end)
-            PluginInstallFrame.Option1:SetText("Setup ElvUI")
+            PluginInstallFrame.Option1:SetText("1440p")
+            PluginInstallFrame.Option2:Show()
+            PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("ElvUI", true, "1080p") end)
+            PluginInstallFrame.Option2:SetText("1080p")
         end,
         [3] = function()
             PluginInstallFrame.SubTitle:SetText("BigWigs")
