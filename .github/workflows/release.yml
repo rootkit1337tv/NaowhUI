@@ -1,0 +1,29 @@
+name: Package and release
+
+on:
+  push:
+    tags:
+      - "**"
+
+jobs:
+
+  release:
+
+    runs-on: ubuntu-latest
+
+    env:
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+
+      - name: Clone project
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      - name: Package and release
+        uses: BigWigsMods/packager@master
+        with:
+          args: -p 1273960

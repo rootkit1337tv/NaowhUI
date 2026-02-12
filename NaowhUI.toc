@@ -1,0 +1,26 @@
+## Title: |cff0091edNaowh|r|cffffa300UI|r
+## Notes: NaowhUI
+## Author: rootkit1337
+## Version: @project-version@
+## SavedVariables: NaowhDB
+## OptionalDeps: ElvUI
+## Interface: 120001, 50503, 20505
+## X-Wago-ID: n6VPvLGd
+## AddonCompartmentFunc: NaowhUI_AddonCompartmentFunc
+## IconTexture: Interface\AddOns\NaowhUI\Game\Shared\Media\Textures\LogoAddon
+## Category-enUS: User Interface
+## Category-deDE: Benutzerinterface
+## Category-esES: Interfaz de usuario
+## Category-esMX: Interfaz de usuario
+## Category-frFR: Interface utilisateur
+## Category-itIT: Interfaccia utente
+## Category-koKR: 사용자 인터페이스
+## Category-ptBR: Interface do usuário
+## Category-ruRU: Интерфейс пользователя
+## Category-zhCN: 用户界面
+## Category-zhTW: 使用者介面
+## Group: NaowhUI
+
+embeds.xml
+
+Game\[Game]\!load.xml

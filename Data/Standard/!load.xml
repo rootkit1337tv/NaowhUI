@@ -1,0 +1,4 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Include file ="AddOns\!load.xml"/>
+    <Include file ="Classes\!load.xml"/>
+</Ui>

@@ -1,0 +1,12 @@
+## Title: |cff0091edNaowh|r|cffffa300UI|r
+## Notes: NaowhUI
+## Author: rootkit1337
+## Version: @project-version@
+## SavedVariables: NaowhDB
+## OptionalDeps: ElvUI
+## Interface: 11508
+## X-Wago-ID: n6VPvLGd
+
+embeds.xml
+
+Game\Vanilla\!load.xml
