@@ -121,6 +121,19 @@ I.installer = {
             PluginInstallFrame.Option2:SetText("1080p")
         end,
         [9] = function()
+            PluginInstallFrame.SubTitle:SetText("Class Cooldown Layouts")
+
+            local className = SE.GetPlayerClassDisplayName and SE.GetPlayerClassDisplayName() or UnitClass("player")
+
+            PluginInstallFrame.Desc1:SetText("Install Edit Mode and Cooldown Manager layouts for your class.")
+            PluginInstallFrame.Desc2:SetText("|cffFFFF00Note:|r This only installs layouts for |cff00FF00" .. className .. "|r (all specs).")
+            PluginInstallFrame.Desc3:SetText("Make sure the Cooldown Manager is enabled in Advanced Options.")
+
+            PluginInstallFrame.Option1:Show()
+            PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("ClassCooldowns", true) end)
+            PluginInstallFrame.Option1:SetText("Install Class Layout")
+        end,
+        [10] = function()
             PluginInstallFrame.SubTitle:SetText("Installation Complete")
             PluginInstallFrame.Desc1:SetText("You have completed the installation process")
             PluginInstallFrame.Desc2:SetText("Please click on 'Reload' to save your settings and reload your UI")
@@ -138,7 +151,8 @@ I.installer = {
         [6] = "Details",
         [7] = "Plater",
         [8] = "WarpDeplete",
-        [9] = "Installation Complete"
+        [9] = "Class Layouts",
+        [10] = "Installation Complete"
     },
     StepTitlesColor = {1, 1, 1},
     StepTitlesColorSelected = {0, 179/255, 1},
