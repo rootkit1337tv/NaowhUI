@@ -39,14 +39,14 @@ local function CreateUnlocker(silent)
 
     frame = AceGUI:Create("Frame")
     frame:SetCallback("OnClose", function(widget) AceGUI:Release(widget) end)
-    frame:SetHeight(150)
+    frame:SetHeight(125)
     frame:SetLayout("Flow")
     frame:SetStatusText(format("%s %.2f", NUI.title, NUI.version))
     frame:SetTitle("NaowhUI Unlocker")
     frame:SetWidth(500)
 
     editbox = AceGUI:Create("EditBox")
-    editbox:SetLabel("Paste your token from naowhui.howli.gg into the field below:")
+    editbox:SetLabel("Paste your token from naowhui.howli.gg below:")
     editbox:SetWidth(350)
     frame:AddChild(editbox)
 
@@ -71,6 +71,69 @@ local function CreateUnlocker(silent)
     button:SetText("Validate")
     button:SetWidth(100)
     frame:AddChild(button)
+
+    local spacer = AceGUI:Create("Label")
+    spacer:SetText("")
+    spacer:SetWidth(500)
+    frame:AddChild(spacer)
+
+    local spacer2 = AceGUI:Create("Label")
+    spacer2:SetText("")
+    spacer2:SetWidth(175)
+    frame:AddChild(spacer2)
+
+    local websiteBtn = AceGUI:Create("Button")
+    websiteBtn:SetCallback("OnClick", function()
+        if NUIURLDialog then
+            NUIURLDialog:Show()
+            return
+        end
+
+        local dialog = CreateFrame("Frame", "NUIURLDialog", UIParent, "BackdropTemplate")
+        dialog:SetSize(350, 80)
+        dialog:SetPoint("CENTER", 0, 150)
+        dialog:SetFrameStrata("DIALOG")
+        dialog:SetBackdrop({
+            bgFile = "Interface\\Buttons\\WHITE8X8",
+            edgeFile = "Interface\\Buttons\\WHITE8X8",
+            edgeSize = 1,
+        })
+        dialog:SetBackdropColor(0.1, 0.1, 0.1, 0.9)
+        dialog:SetBackdropBorderColor(0, 0, 0, 1)
+
+        local editBox = CreateFrame("EditBox", nil, dialog, "InputBoxTemplate")
+        editBox:SetSize(300, 20)
+        editBox:SetPoint("TOP", 0, -20)
+        editBox:SetText("https://naowhui.howli.gg/")
+        editBox:HighlightText()
+        editBox:SetFocus()
+        editBox:SetScript("OnEscapePressed", function() dialog:Hide() end)
+
+        local closeBtn = CreateFrame("Button", nil, dialog, "UIPanelButtonTemplate")
+        closeBtn:SetSize(80, 22)
+        closeBtn:SetPoint("BOTTOM", 0, 10)
+        closeBtn:SetText(CLOSE)
+        closeBtn:SetScript("OnClick", function() dialog:Hide() end)
+
+        if NUI:IsAddOnEnabled("ElvUI") then
+            local E = unpack(ElvUI)
+            local S = E:GetModule("Skins")
+
+            if S and S.HandleButton then
+                S:HandleButton(closeBtn)
+            end
+
+            if S and S.HandleEditBox then
+                S:HandleEditBox(editBox)
+            end
+        end
+
+        dialog:Show()
+    end)
+    websiteBtn:SetText("Get Token")
+    websiteBtn:SetWidth(125)
+    websiteBtn:SetHeight(35)
+    frame:AddChild(websiteBtn)
 end
 
 function NUI:IsTokenValid(silent)
