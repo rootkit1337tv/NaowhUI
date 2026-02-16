@@ -45,9 +45,13 @@ local function CreateUnlocker(silent)
     frame:SetTitle("NaowhUI Unlocker")
     frame:SetWidth(500)
 
+    -- Adjust status text position
+    frame.statustext:ClearAllPoints()
+    frame.statustext:SetPoint("BOTTOMLEFT", 2, 4)
+
     editbox = AceGUI:Create("EditBox")
-    editbox:SetLabel("Paste your token from naowhui.howli.gg below:")
-    editbox:SetWidth(350)
+    editbox:SetLabel("Paste your naowhui.howli.gg token below:")
+    editbox:SetWidth(354)
     frame:AddChild(editbox)
 
     button = AceGUI:Create("Button")
@@ -90,7 +94,7 @@ local function CreateUnlocker(silent)
         end
 
         local dialog = CreateFrame("Frame", "NUIURLDialog", UIParent, "BackdropTemplate")
-        dialog:SetSize(350, 80)
+        dialog:SetSize(400, 100)
         dialog:SetPoint("CENTER", 0, 150)
         dialog:SetFrameStrata("DIALOG")
         dialog:SetBackdrop({
@@ -101,9 +105,14 @@ local function CreateUnlocker(silent)
         dialog:SetBackdropColor(0.1, 0.1, 0.1, 0.9)
         dialog:SetBackdropBorderColor(0, 0, 0, 1)
 
+        local title = dialog:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+        title:SetPoint("TOP", 0, -8)
+        title:SetText("Copy URL to a browser to get your token")
+        title:SetTextColor(1, 0.82, 0)
+
         local editBox = CreateFrame("EditBox", nil, dialog, "InputBoxTemplate")
         editBox:SetSize(300, 20)
-        editBox:SetPoint("TOP", 0, -20)
+        editBox:SetPoint("TOP", title, "BOTTOM", 0, -8)
         editBox:SetText("https://naowhui.howli.gg/")
         editBox:HighlightText()
         editBox:SetFocus()
