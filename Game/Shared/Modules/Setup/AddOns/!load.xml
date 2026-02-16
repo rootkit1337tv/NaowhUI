@@ -2,7 +2,7 @@
     <Script file="BetterCooldownManager.lua"/>
     <Script file="BigWigs.lua"/>
     <Script file="Blizzard_EditMode.lua"/>
-    <Script file="Class Cooldown Layouts.lua"/>
+    <Script file="ClassLayouts.lua"/>
     <Script file="Details.lua"/>
     <Script file="ElvUI.lua"/>
     <Script file="HidingBar.lua"/>
