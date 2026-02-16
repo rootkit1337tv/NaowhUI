@@ -46,16 +46,16 @@ local function CreateUnlocker(silent)
     frame:SetWidth(500)
 
     frame.statustext:ClearAllPoints()
-    frame.statustext:SetPoint("BOTTOMLEFT", 2, 4)
+    frame.statustext:SetPoint("BOTTOMLEFT", 3, 4)
 
     local label = frame.frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    label:SetPoint("TOPLEFT", frame.frame, "TOPLEFT", 12, -30)
+    label:SetPoint("TOPLEFT", frame.frame, "TOPLEFT", 18, -30)
     label:SetText("Paste your token from naowhui.howli.gg below:")
     label:SetTextColor(1, 0.82, 0)
 
     local editbox = CreateFrame("EditBox", nil, frame.frame, "InputBoxTemplate")
-    editbox:SetSize(345, 20)
-    editbox:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 10, -10)
+    editbox:SetSize(344, 20)
+    editbox:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 5, -10)
     editbox:SetAutoFocus(false)
 
     local validateBtn = CreateFrame("Button", nil, frame.frame, "UIPanelButtonTemplate")
