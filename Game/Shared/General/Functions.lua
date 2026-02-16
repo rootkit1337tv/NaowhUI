@@ -39,8 +39,8 @@ local function CreateUnlocker(silent)
 
     frame = AceGUI:Create("Frame")
     frame:SetCallback("OnClose", function(widget) AceGUI:Release(widget) end)
-    frame:SetHeight(125)
-    frame:SetLayout("Flow")
+    frame:SetHeight(115)
+    frame:SetLayout(nil)
     frame:SetStatusText(format("%s %.2f", NUI.title, NUI.version))
     frame:SetTitle("NaowhUI Unlocker")
     frame:SetWidth(500)
@@ -49,52 +49,52 @@ local function CreateUnlocker(silent)
     frame.statustext:ClearAllPoints()
     frame.statustext:SetPoint("BOTTOMLEFT", 2, 4)
 
-    editbox = AceGUI:Create("EditBox")
-    editbox:SetLabel("Paste your naowhui.howli.gg token below:")
-    editbox:SetWidth(354)
-    frame:AddChild(editbox)
+    -- Label
+    local label = frame.frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    label:SetPoint("TOPLEFT", frame.frame, "TOPLEFT", 12, -30)
+    label:SetText("Paste your token from naowhui.howli.gg below:")
+    label:SetTextColor(1, 0.82, 0)
 
-    button = AceGUI:Create("Button")
-    button:SetCallback("OnClick", function()
+    -- EditBox (native frame for full control)
+    local editbox = CreateFrame("EditBox", nil, frame.frame, "InputBoxTemplate")
+    editbox:SetSize(345, 20)
+    editbox:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 10, -10)
+    editbox:SetAutoFocus(false)
+
+    -- Validate button (anchored from right to align with Close)
+    local validateBtn = CreateFrame("Button", nil, frame.frame, "UIPanelButtonTemplate")
+    validateBtn:SetSize(100, 20)
+    validateBtn:SetPoint("TOPRIGHT", frame.frame, "TOPRIGHT", -27, -54)
+    validateBtn:SetText("Validate")
+    validateBtn:SetScript("OnClick", function()
         local token = editbox:GetText()
 
         if #token == 0 then
             NUI:Print("Token not found")
-
             return
         end
 
         if ValidateToken(token) then
             frame:Hide()
-
             NUI.db.global.token = token
-
             NUI:RunInstaller()
         end
     end)
-    button:SetText("Validate")
-    button:SetWidth(100)
-    frame:AddChild(button)
 
-    local spacer = AceGUI:Create("Label")
-    spacer:SetText("")
-    spacer:SetWidth(500)
-    frame:AddChild(spacer)
-
-    local spacer2 = AceGUI:Create("Label")
-    spacer2:SetText("")
-    spacer2:SetWidth(175)
-    frame:AddChild(spacer2)
-
-    local websiteBtn = AceGUI:Create("Button")
-    websiteBtn:SetCallback("OnClick", function()
+    -- Get Token button in the status bar area
+    local websiteBtn = CreateFrame("Button", nil, frame.frame, "UIPanelButtonTemplate")
+    websiteBtn:SetSize(110, 20)
+    websiteBtn:SetPoint("BOTTOMRIGHT", frame.frame, "BOTTOMRIGHT", -129, 17)
+    websiteBtn:SetText("Get Token")
+    websiteBtn:SetFrameLevel(frame.frame:GetFrameLevel() + 10)
+    websiteBtn:SetScript("OnClick", function()
         if NUIURLDialog then
             NUIURLDialog:Show()
             return
         end
 
         local dialog = CreateFrame("Frame", "NUIURLDialog", UIParent, "BackdropTemplate")
-        dialog:SetSize(400, 100)
+        dialog:SetSize(350, 100)
         dialog:SetPoint("CENTER", 0, 150)
         dialog:SetFrameStrata("DIALOG")
         dialog:SetBackdrop({
@@ -105,9 +105,9 @@ local function CreateUnlocker(silent)
         dialog:SetBackdropColor(0.1, 0.1, 0.1, 0.9)
         dialog:SetBackdropBorderColor(0, 0, 0, 1)
 
-        local title = dialog:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+        local title = dialog:CreateFontString(nil, "OVERLAY", "GameFontNormal")
         title:SetPoint("TOP", 0, -8)
-        title:SetText("Copy URL to a browser to get your token")
+        title:SetText("Copy this URL to get your token")
         title:SetTextColor(1, 0.82, 0)
 
         local editBox = CreateFrame("EditBox", nil, dialog, "InputBoxTemplate")
@@ -139,10 +139,21 @@ local function CreateUnlocker(silent)
 
         dialog:Show()
     end)
-    websiteBtn:SetText("Get Token")
-    websiteBtn:SetWidth(125)
-    websiteBtn:SetHeight(35)
-    frame:AddChild(websiteBtn)
+
+    -- Skin buttons if ElvUI is available
+    if NUI:IsAddOnEnabled("ElvUI") then
+        local E = unpack(ElvUI)
+        local S = E:GetModule("Skins")
+
+        if S and S.HandleButton then
+            S:HandleButton(websiteBtn)
+            S:HandleButton(validateBtn)
+        end
+
+        if S and S.HandleEditBox then
+            S:HandleEditBox(editbox)
+        end
+    end
 end
 
 function NUI:IsTokenValid(silent)
