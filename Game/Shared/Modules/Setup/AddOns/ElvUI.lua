@@ -65,8 +65,23 @@ function SE.ElvUI(addon, import, resolution)
             E.private.WT.misc.lfgList.icon.size = 18
             E.private.WT.misc.lfgList.line.tex = "ElvUI Blank"
             E.private.WT.misc.moveSpeed = true
-            E.private.WT.quest.objectiveTracker.cosmeticBar.offsetY = -13
-            E.private.WT.quest.objectiveTracker.cosmeticBar.width = 212
+            E.private.WT.quest.objectiveTracker.cosmeticBar.height = 1
+            E.private.WT.quest.objectiveTracker.cosmeticBar.offsetY = -10
+            E.private.WT.quest.objectiveTracker.cosmeticBar.width = 252
+            E.private.WT.quest.objectiveTracker.enable = true
+            E.private.WT.quest.objectiveTracker.infoColor.customColorHighlight.b = 1
+            E.private.WT.quest.objectiveTracker.infoColor.customColorHighlight.g = 1
+            E.private.WT.quest.objectiveTracker.infoColor.customColorHighlight.r = 1
+            E.private.WT.quest.objectiveTracker.infoColor.customColorNormal.b = 1
+            E.private.WT.quest.objectiveTracker.infoColor.customColorNormal.g = 1
+            E.private.WT.quest.objectiveTracker.infoColor.customColorNormal.r = 1
+            E.private.WT.quest.objectiveTracker.title.size = 14
+            E.private.WT.quest.objectiveTracker.titleColor.customColorHighlight.b = 0.6196078658103943
+            E.private.WT.quest.objectiveTracker.titleColor.customColorHighlight.g = 0.9960784912109375
+            E.private.WT.quest.objectiveTracker.titleColor.customColorHighlight.r = 1
+            E.private.WT.quest.objectiveTracker.titleColor.customColorNormal.b = 0.2627451121807098
+            E.private.WT.quest.objectiveTracker.titleColor.customColorNormal.g = 0.874509871006012
+            E.private.WT.quest.objectiveTracker.titleColor.customColorNormal.r = 1
             E.private.WT.skins.addons.worldQuestTab = false
             E.private.WT.skins.bigWigsSkin.emphasizedBar.colorRight.b = 0.4078431725502014
             E.private.WT.skins.bigWigsSkin.emphasizedBar.colorRight.g = 0.4078431725502014
@@ -121,6 +136,14 @@ function SE.ElvUI(addon, import, resolution)
             E.private.WT.tooltips.progression.specialAchievement.enable = false
             E.private.WT.tooltips.titleIcon.enable = false
             E.private.WT.unitFrames.roleIcon.enable = false
+
+            if resolution then
+                E.private.WT.quest.objectiveTracker.cosmeticBar.offsetY = -13
+                E.private.WT.quest.objectiveTracker.header.size = 15
+                E.private.WT.quest.objectiveTracker.info.size = 14
+                E.private.WT.quest.objectiveTracker.menuTitle.font.size = 13
+                E.private.WT.quest.objectiveTracker.title.size = 13
+            end
         end
 
         E.private.skins.blizzard.cooldownManager = false
