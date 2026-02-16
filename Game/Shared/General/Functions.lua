@@ -45,23 +45,19 @@ local function CreateUnlocker(silent)
     frame:SetTitle("NaowhUI Unlocker")
     frame:SetWidth(500)
 
-    -- Adjust status text position
     frame.statustext:ClearAllPoints()
     frame.statustext:SetPoint("BOTTOMLEFT", 2, 4)
 
-    -- Label
     local label = frame.frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     label:SetPoint("TOPLEFT", frame.frame, "TOPLEFT", 12, -30)
     label:SetText("Paste your token from naowhui.howli.gg below:")
     label:SetTextColor(1, 0.82, 0)
 
-    -- EditBox (native frame for full control)
     local editbox = CreateFrame("EditBox", nil, frame.frame, "InputBoxTemplate")
     editbox:SetSize(345, 20)
     editbox:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 10, -10)
     editbox:SetAutoFocus(false)
 
-    -- Validate button (anchored from right to align with Close)
     local validateBtn = CreateFrame("Button", nil, frame.frame, "UIPanelButtonTemplate")
     validateBtn:SetSize(100, 20)
     validateBtn:SetPoint("TOPRIGHT", frame.frame, "TOPRIGHT", -27, -54)
@@ -81,7 +77,6 @@ local function CreateUnlocker(silent)
         end
     end)
 
-    -- Get Token button in the status bar area
     local websiteBtn = CreateFrame("Button", nil, frame.frame, "UIPanelButtonTemplate")
     websiteBtn:SetSize(110, 20)
     websiteBtn:SetPoint("BOTTOMRIGHT", frame.frame, "BOTTOMRIGHT", -129, 17)
@@ -140,7 +135,6 @@ local function CreateUnlocker(silent)
         dialog:Show()
     end)
 
-    -- Skin buttons if ElvUI is available
     if NUI:IsAddOnEnabled("ElvUI") then
         local E = unpack(ElvUI)
         local S = E:GetModule("Skins")
