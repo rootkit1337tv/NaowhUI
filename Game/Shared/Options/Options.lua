@@ -377,6 +377,48 @@ NUI.options = {
                 }
             }
         },
+        class_layouts = {
+            name = "Class Layouts",
+            order = 4,
+            hidden = function()
+                if not NUI.Retail or not NUI:IsTokenValid(true) or NUI:IsAddOnEnabled("ElvUI") or InCombatLockdown() then
+
+                    return true
+                end
+            end,
+            type = "group",
+            args = {
+                desc1 = {
+                    name = "Install Cooldown Manager layouts for your class.",
+                    order = 1,
+                    type = "description",
+                    fontSize = "medium"
+                },
+                desc2 = {
+                    name = function()
+                        local className = SE.GetPlayerClassDisplayName and SE.GetPlayerClassDisplayName() or UnitClass("player")
+
+                        return "|cffFFFF00Note:|r This only installs layouts for |cff00FF00" .. className .. "|r (all specs)."
+                    end,
+                    order = 2,
+                    type = "description",
+                    fontSize = "medium"
+                },
+                desc3 = {
+                    name = "Make sure the Cooldown Manager is enabled in Advanced Options.",
+                    order = 3,
+                    type = "description",
+                    fontSize = "medium"
+                },
+                class_cooldowns = {
+                    name = "Class Layout",
+                    order = 4,
+                    desc = "Install class cooldown layouts for your current class",
+                    type = "execute",
+                    func = function() SE:Setup("ClassCooldowns", true) end
+                }
+            }
+        },
         advanced = {
             name = "Advanced",
             order = -1,
