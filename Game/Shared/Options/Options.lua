@@ -271,7 +271,7 @@ NUI.options = {
             name = "General WeakAuras",
             order = 2,
             hidden = function()
-                if not NUI.Retail or not NUI:IsTokenValid(true) or not NUI:IsAddOnEnabled("WeakAuras") or InCombatLockdown() then
+                if NUI.Retail or not NUI:IsTokenValid(true) or not NUI:IsAddOnEnabled("WeakAuras") or InCombatLockdown() then
 
                     return true
                 end
