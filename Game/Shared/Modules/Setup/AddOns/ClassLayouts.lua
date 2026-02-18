@@ -19,6 +19,67 @@ local function GetSpecName()
     end
 end
 
+local function GetClassDisplayName()
+    local _, className = UnitClass("player")
+
+    return LOCALIZED_CLASS_NAMES_MALE[className] or className
+end
+
+local function RemoveExistingClassLayouts()
+    if not CooldownViewerSettings then return 0 end
+
+    local layoutManager = CooldownViewerSettings:GetLayoutManager()
+    if not layoutManager or not layoutManager.layouts then return 0 end
+
+    local layouts = layoutManager.layouts
+    if not next(layouts) then return 0 end
+
+    local searchPrefix = "Naowh - " .. GetClassDisplayName()
+
+    local toRemove = {}
+
+    for layoutID, layout in pairs(layouts) do
+        if layout then
+            local layoutName = layout.layoutName or layout.name
+
+            if layoutName and layoutName:find(searchPrefix, 1, true) == 1 then
+                toRemove[#toRemove + 1] = layoutID
+            end
+        end
+    end
+
+    if #toRemove == 0 then return 0 end
+
+    table.sort(toRemove, function(a, b) return a > b end)
+
+    for _, layoutID in ipairs(toRemove) do
+        layoutManager.layouts[layoutID] = nil
+    end
+
+    local newLayouts = {}
+
+    for _, layout in pairs(layoutManager.layouts) do
+        if layout then
+            newLayouts[#newLayouts + 1] = layout
+            layout.layoutID = #newLayouts
+        end
+    end
+
+    for k in pairs(layoutManager.layouts) do
+        layoutManager.layouts[k] = nil
+    end
+
+    for i, layout in ipairs(newLayouts) do
+        layoutManager.layouts[i] = layout
+    end
+
+    if layoutManager.SaveLayouts then
+        pcall(function() layoutManager:SaveLayouts() end)
+    end
+
+    return #toRemove
+end
+
 local function IsEditModeLayoutExisting()
     local layouts = C_EditMode.GetLayouts()
 
@@ -41,6 +102,8 @@ local function ImportClassCooldowns()
 
     local layoutManager = CooldownViewerSettings:GetLayoutManager()
     if not layoutManager then return false end
+
+    RemoveExistingClassLayouts()
 
     local ok, layoutIDs = pcall(layoutManager.CreateLayoutsFromSerializedData, layoutManager, classData)
     if not ok or not layoutIDs or #layoutIDs == 0 then return false end
