@@ -271,7 +271,7 @@ NUI.options = {
             name = "General WeakAuras",
             order = 2,
             hidden = function()
-                if not NUI.Retail or not NUI:IsTokenValid(true) or not NUI:IsAddOnEnabled("WeakAuras") or InCombatLockdown() then
+                if NUI.Retail or not NUI:IsTokenValid(true) or not NUI:IsAddOnEnabled("WeakAuras") or InCombatLockdown() then
 
                     return true
                 end
@@ -389,7 +389,11 @@ NUI.options = {
             type = "group",
             args = {
                 desc1 = {
+<<<<<<< HEAD
                     name = "Install Edit Mode and Cooldown Manager layouts for your class.",
+=======
+                    name = "Install Cooldown Manager layouts for your class.",
+>>>>>>> 8fad44d1cbe62fe580a189023da112cf8653ea96
                     order = 1,
                     type = "description",
                     fontSize = "medium"

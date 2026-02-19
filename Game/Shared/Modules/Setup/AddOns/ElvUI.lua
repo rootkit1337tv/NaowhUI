@@ -89,6 +89,7 @@ function SE.ElvUI(addon, import, resolution)
             E.private.WT.skins.bigWigsSkin.queueTimer.countDown.name = "Naowh"
             E.private.WT.skins.bigWigsSkin.queueTimer.countDown.offsetY = -2
             E.private.WT.skins.bigWigsSkin.queueTimer.countDown.size = 15
+            E.private.WT.skins.blizzard.cooldownViewer = false
             E.private.WT.skins.cooldownViewer.enable = false
             E.private.WT.skins.elvui.auras = false
             E.private.WT.skins.elvui.unitFrames = false
