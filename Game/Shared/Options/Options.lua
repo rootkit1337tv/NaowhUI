@@ -389,11 +389,7 @@ NUI.options = {
             type = "group",
             args = {
                 desc1 = {
-<<<<<<< HEAD
-                    name = "Install Edit Mode and Cooldown Manager layouts for your class.",
-=======
                     name = "Install Cooldown Manager layouts for your class.",
->>>>>>> 8fad44d1cbe62fe580a189023da112cf8653ea96
                     order = 1,
                     type = "description",
                     fontSize = "medium"
